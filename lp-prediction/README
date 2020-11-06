@@ -1,0 +1,14 @@
+LP Prediction
+Version: 0.1
+GPL
+
+This is my first application using cherrypy + kid.
+I made this app to help me predict amount of LiquidPower required, in ppm, to be injected into a pipeline.
+
+I am a fans of MVC principle: as programmer we separate between model, view and controller.
+
+1. Model: equations.py, contains all equations needed to calculate required LP
+2. View: kid act as a view, how the web app will be shown
+3. COntroller: cherrypy as controller, acting to control information flow inside the application.
+
+mico_siahaan@gmail.com
